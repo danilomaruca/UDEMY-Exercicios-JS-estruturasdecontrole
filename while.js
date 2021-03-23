@@ -6,7 +6,7 @@ function getInteiroAleatorioEntre(min, max) {
 
 let opcao = 0
 
-while(opcao != -1) {        //estrutura de repetição baseada na condição verdadeiro ou falso
+while(opcao != -1) {        //expressão de repetição baseada na condição verdadeiro ou falso
     opcao = getInteiroAleatorioEntre(-1, 10)
     console.log(`Opção escolhida foi ${opcao}.`)
 }
